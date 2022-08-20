@@ -7,7 +7,7 @@ import {
   TitleProject,
   Url,
   Created_at,
-} from "./style";
+} from "../../../styles/styleProjects";
 
 export default function Projects() {
   const [itemsApi, setItemsApi] = useState([]);
