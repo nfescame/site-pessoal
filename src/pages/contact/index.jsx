@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Content } from "../../../styles/styleContact";
-import { FaLinkedin, FaFacebook, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaFacebook, FaEnvelope, FaPhone } from "react-icons/fa";
 import ItemContact from "../../../components/ItemContact";
 
 export default function Contact() {
@@ -11,12 +11,9 @@ export default function Contact() {
           IconFa={FaLinkedin}
           LinkContact='https://www.linkedin.com/in/nilton-escame/'
         />
-        <ItemContact
-          IconFa={FaFacebook}
-          LinkContact='https://www.facebook.com/profile.php?id=100005693945352'
-        />
 
         <ItemContact IconFa={FaEnvelope} LinkContact='nfescame@gmail.com' />
+        <ItemContact IconFa={FaPhone} LinkContact='+55 (11)91591-0579' />
       </Content>
     </Container>
   );

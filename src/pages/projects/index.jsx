@@ -44,7 +44,7 @@ export default function Projects() {
                 target='_blank'
                 rel='noreferrer'
                 href={item.html_url}
-                style={{ color: "#fff" }}
+                style={{ color: "#fff", textDecoration: "none" }}
               >
                 URL: {item.url}
               </a>
