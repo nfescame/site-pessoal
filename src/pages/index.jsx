@@ -20,9 +20,9 @@ export default function Home() {
           <Name>Olá, sou Nilton Escame</Name>
           <Function>FullStack Developer</Function>
           <Intro>
-            Graduado em Sistemas de Informação, tenho experiência em
-            desenvolvimento Web (React, Asp, JS e outros), mobile e criação de
-            conteúdo para o YouTube.
+            Certificado como desenvolvedor pela IROMHACK, tenho conhecimentos em
+            desenvolvimento Web (React, Next, Adonis, Express, JS, CSS3,
+            Bootstrap e outros) e mobile.
           </Intro>
           <Link href='projects'>
             <LinkProjects>

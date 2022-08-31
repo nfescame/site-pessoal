@@ -16,7 +16,7 @@ export default function Contact() {
           LinkContact='https://www.facebook.com/profile.php?id=100005693945352'
         />
 
-        <ItemContact IconFa={FaEnvelope} LinkContact='nfescam@gmail.com' />
+        <ItemContact IconFa={FaEnvelope} LinkContact='nfescame@gmail.com' />
       </Content>
     </Container>
   );
