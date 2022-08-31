@@ -22,6 +22,7 @@ export default function Projects() {
             throw new Error(res.status);
           }
           var data = await res.json();
+          console.log(data);
           setItemsApi(data);
         })
         .catch((e) => console.log(e));
@@ -39,7 +40,14 @@ export default function Projects() {
           {itemsApi.map((item) => (
             <Li key={item.id}>
               <TitleProject>{item.name.toUpperCase()}</TitleProject>
-              <Url>URL: {item.url}</Url>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href={item.html_url}
+                style={{ color: "#fff" }}
+              >
+                URL: {item.url}
+              </a>
               <Created_at>
                 Data Criação:{" "}
                 {Intl.DateTimeFormat("pt-BR").format(new Date(item.created_at))}
