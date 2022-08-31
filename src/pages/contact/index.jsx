@@ -10,6 +10,7 @@ export default function Contact() {
         <ItemContact
           IconFa={FaLinkedin}
           LinkContact='https://www.linkedin.com/in/nilton-escame/'
+          link='https://www.linkedin.com/in/nilton-escame/'
         />
 
         <ItemContact IconFa={FaEnvelope} LinkContact='nfescame@gmail.com' />
